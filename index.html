@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+      /* Style for the background image */
+      body {
+        background-image: url("./myotherimages/g.gif");
+        background-size: cover;
+      }
+      
+      /* Style for the sale banner */
+      .sale-banner {
+        position: fixed;
+        top: 50%;
+        right: 0;
+        transform: translate(0, -50%);
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.308);
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      /* Style for the shop now button */
+      .shop-now-btn {
+        display: inline-block;
+        padding: 10px;
+        background-color: #ff5555de;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-top: 10px;
+        transition: background-color 0.2s ease-in-out;
+      }
+      .shop-now-btn:hover {
+        background-color: #ff5555;
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="sale-banner">
+      <h2 style="color: rgb(195, 0, 255);">Exclusive Sales!!</h2>
+
+      <img src="./myotherimages/in.gif" alt="Sale image">
+      <a href="clear.html" class="shop-now-btn">Shop now</a>
+    </div>
+
+    
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">HOME</a>
+        </li>
+        <li>
+          <a href="Trending_now.html">TRENDING NOW</a>
+        </li>
+        <li class="dropdown">
+          <a href="#">BY STYLE</a>
+          <div class="dropdown-content">
+            <a href="Shoulder_Bags.html">Shoulder Bags</a>
+            <a href="Totes.html">Totes</a>
+            <a href="TopHandles.html">Top Handles</a>
+            <a href="Mini.html">Mini Bags</a>
+            <a href="Hobo.html">Hobo bags</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#">BY BRAND</a>
+          <div class="dropdown-content">
+            <a href="Gucci.html">Gucci</a>
+            <a href="Louis.html">Louis Vuitton</a>
+            <a href="Chanel.html">Chanel</a>
+            <a href="prada.html">Prada</a>
+            <a href="Bal.html">Balenciaga</a>
+            <a href="alex.html">Alexander McQueen</a>
+            <a href="Dolce.html">Dolce & Gabbana</a>
+          </div>
+        </li>
+        <li>
+          <a href="clear.html">SALE</a>
+        </li>
+        <li>
+          <a href="About_us.html">ABOUT US</a>
+        </li>
+      </ul>
+    </nav>
+
+    <script src="index.js"></script>
+  </body>
+</html>
